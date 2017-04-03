@@ -1,0 +1,32 @@
+# Site Settings
+title:               boxcarData
+tagline:             data platform and engineering blog
+description:         Data is the best (Description section)
+baseurl:            #"/Lagrange"
+url:                #"https://boxcardata.github.io"
+github:
+#  url:               "https://github.com/boxcardata"
+author:
+  name:              # "Oliver"
+  email:             "boxcardata@gmail.com"
+  twitter:           ""
+  instagram:         ""
+  github:            "boxcardata"
+  facebook:          ""
+  linkedin:          ""
+navigation:
+- title: About
+  url: /about
+- title: Writing
+  url: /writing
+- title: Contact
+  url: /contact
+
+paginate:            5
+disqus:              #"your-disqus"
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]
