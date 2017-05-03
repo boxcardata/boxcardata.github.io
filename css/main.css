@@ -98,16 +98,27 @@ blockquote p {
   Site container
 */
 
+<<<<<<< HEAD
  /* width: 1018px;*/
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 800px;
+=======
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 615px;
+>>>>>>> a79a9da0775be15eccf4b1e38d2522a8136b8b55
 }
 
 @media (max-width: 1366px) {
   .container {
+<<<<<<< HEAD
     width: 70vw;
+=======
+    width: 45vw;
+>>>>>>> a79a9da0775be15eccf4b1e38d2522a8136b8b55
   }
 }
 
@@ -117,7 +128,6 @@ blockquote p {
     width: 75vw;
   }
 }
-
 
 /*
   Masthead
